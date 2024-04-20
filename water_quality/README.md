@@ -58,13 +58,29 @@ This was because they did not receive sufficient training samples for the 'safe'
 <img width="1630" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/03047788-0913-4088-88a2-412689d45d71">
 
 ## Evaluation on Optimized Hyperparameters Decision Tree Classifier 
-The classification results indicate a high level of performance overall. 
+### Classification Report:
 
-<img width="837" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/5d6faf49-2c84-494e-aa30-234d59cd905e">
-
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/5d6faf49-2c84-494e-aa30-234d59cd905e">
+- The classification results indicate a high level of performance overall. 
 - For the "Not Safe" class, precision, recall, and F1-score are all high, at 0.98, suggesting that the model effectively identifies instances belonging to this class with few false positives and negatives. 
 - Similarly, for the "Safe" class, precision, recall, and F1-score are slightly lower but still respectable, at 0.84, indicating that while the model identifies instances of this class with good accuracy, there are some false positives and negatives. The accuracy of 0.96 reflects the overall proportion of correctly classified instances in the dataset. The macro and weighted averages of precision, recall, and F1-score are both high, indicating a balanced performance across classes. 
 - Overall, the model demonstrates strong predictive capabilities with a weighted average F1-score of 0.96, suggesting its suitability for classification tasks.
+
+### Confusion Matrix:
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/f1c7ef50-d5a3-4baa-a411-e2edcba55c0b">
+
+- The top-left cell (1385) indicates the number of instances that were correctly classified as belonging to the "Not Safe" class (True Negatives).
+- The top-right cell (33) indicates the number of instances that were incorrectly classified as "Safe" when they actually belonged to the "Not Safe" class (False Positives).
+- The bottom-left cell (35) indicates the number of instances that were incorrectly classified as "Not Safe" when they actually belonged to the "Safe" class (False Negatives).
+- The bottom-right cell (147) indicates the number of instances that were correctly classified as belonging to the "Safe" class (True Positives).
+- From this confusion matrix, we can see that the model performs well overall, with a high number of true positives and true negatives. 
+However, there are some misclassifications, as indicated by the false positives and false negatives. Overall, the model appears to have a higher accuracy in predicting the "Not Safe" class compared to the "Safe" class, as there are fewer false positives and more true negatives.
+
+### ROC-AUC Curve:
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/6f7e3cf2-6e9f-4e22-a04a-d73456267dcb">
+- A higher AUC value (closer to 1) suggests better discrimination between the positive and negative classes, indicating that the model can effectively distinguish between them. 
+
+
 
 
 
