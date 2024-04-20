@@ -41,6 +41,9 @@ Using SMOTE-Tomek to resample the class labels is to address the class imbalance
 
 <img src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/2bc3d43e-ebd2-4954-8a31-1145fe295cb1" width="350" alt="Output2 Image">
 
+## Data Transformation
+
+
 
 
 
