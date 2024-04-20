@@ -1,8 +1,6 @@
 # Welcome to AI in Healthcare, Biomedical, and Genomics 
 
-![_344a8440-da06-444b-90d4-0a06fe6f45ba](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/39aee435-5d6d-41b9-b8cd-96f8653e2f56)
-
-<img src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/39aee435-5d6d-41b9-b8cd-96f8653e2f56" width="200" alt="Image">
+<img src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/39aee435-5d6d-41b9-b8cd-96f8653e2f56" width="600" alt="Image">
 
 Welcome to a platform focused on the exciting intersection of AI, healthcare, and genomics! 
 
