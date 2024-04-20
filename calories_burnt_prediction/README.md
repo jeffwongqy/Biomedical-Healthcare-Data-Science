@@ -26,5 +26,10 @@ The primary objective of this project is to design and implement a neural networ
 ### **Function of the Attributes**
 ![attributes_function](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/ee77f307-6ddb-4e91-8264-9d136c89c7b8)
 
+### **Deep Neural Network (Results)**
+#### Hold-out Validation
+![dnn_holdout_val](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/f121801b-c91f-4238-b00b-57ebdf77b833)
 
+#### K-Fold Cross-Validation 
+![dnn_kfold_cv](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/cf337768-87bf-4b10-8db2-b24d52d76ddb)
 
