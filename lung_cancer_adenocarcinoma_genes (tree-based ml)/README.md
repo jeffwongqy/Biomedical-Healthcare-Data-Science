@@ -23,4 +23,8 @@ The primary objective of this project is to develop and validate predictive mode
 ## Data Collection
 Collected data from BARRA:CuRDa (https://sbcb.inf.ufrgs.br/barracurda) is to utilize a curated RNA-seq database specifically tailored for cancer research, ensuring high-quality and relevant genomic data for analysis and modeling in the context of lung cancer adenocarcinoma.
 
+## Data Preprocessing
+### (A) Select the first 50 columns for analysis:  To reduce computational complexity while focusing on the most relevant features for initial exploration and modeling.
+### (B) Check for missing values: To ensure data completeness and integrity for accurate analysis and modeling.
+### (C) 
 
