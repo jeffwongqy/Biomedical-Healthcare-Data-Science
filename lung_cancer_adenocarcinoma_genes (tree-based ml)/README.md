@@ -25,7 +25,9 @@ Collected data from BARRA:CuRDa (https://sbcb.inf.ufrgs.br/barracurda) is to uti
 
 ## Data Preprocessing
 (A) Select the first 50 columns for analysis:  To reduce computational complexity while focusing on the most relevant features for initial exploration and modeling.
+
 (B) Check for missing values: To ensure data completeness and integrity for accurate analysis and modeling.
+
 (C) Distribution of Samples Corresponding to Each Lung Cancer Types: To understand the variability and characteristics of each type, aiding in the identification of potential patterns or differences that could inform diagnosis, prognosis, or treatment strategies.
 
 ## Data Splitting
