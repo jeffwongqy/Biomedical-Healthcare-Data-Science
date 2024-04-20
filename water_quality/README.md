@@ -57,6 +57,16 @@ This was because they did not receive sufficient training samples for the 'safe'
 <img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/dfe83c55-efa9-469b-9429-1ce5d769b5ce">
 <img width="1630" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/03047788-0913-4088-88a2-412689d45d71">
 
+## Evaluation on Optimized Hyperparameters Decision Tree Classifier 
+The classification results indicate a high level of performance overall. 
+
+<img width="837" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/5d6faf49-2c84-494e-aa30-234d59cd905e">
+
+- For the "Not Safe" class, precision, recall, and F1-score are all high, at 0.98, suggesting that the model effectively identifies instances belonging to this class with few false positives and negatives. 
+- Similarly, for the "Safe" class, precision, recall, and F1-score are slightly lower but still respectable, at 0.84, indicating that while the model identifies instances of this class with good accuracy, there are some false positives and negatives. The accuracy of 0.96 reflects the overall proportion of correctly classified instances in the dataset. The macro and weighted averages of precision, recall, and F1-score are both high, indicating a balanced performance across classes. 
+- Overall, the model demonstrates strong predictive capabilities with a weighted average F1-score of 0.96, suggesting its suitability for classification tasks.
+
+
 
 
 
