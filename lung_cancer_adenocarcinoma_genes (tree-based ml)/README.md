@@ -54,6 +54,18 @@ Using SMOTE-Tomek to resample the class labels is to address the class imbalance
 
 ![Screenshot 2024-04-20 225920](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/f59f47b8-5c0c-4976-b43d-79bae2088267)
 
+## Baseline Model Selection
+Selecting a baseline model using **default parameters** and from **stratified k-fold cross-validation** as well as **hold-out validation**is to establish a robust initial benchmark for model performance, considering both default parameter settings and cross-validation to ensure a reliable comparison across different folds and to provide a solid foundation for subsequent model refinement and evaluation.
+
+Considering both metrics, it seems that the Extra Trees Classifier or Random Forest Classifier has the highest accuracy on both the stratified k-fold validation and the hold-out test set. Therefore, we may want to choose the Extra Trees Classifier or Random Forest Classifier for further hyperparameter optimization.
+
+NOTE: Check out the Jupyter Notebook for more detailed results. 
+
+## Hyperparameters Optimization - Random Forest Classifier
+Hyperparameter optimization is crucial for Random Forest Classifier despite its high performance because it allows fine-tuning of parameters to further enhance its effectiveness. While Random Forests are robust and versatile, adjusting hyperparameters such as the number of trees, maximum depth of trees, and minimum samples per leaf can optimize its performance for specific datasets and tasks. Hyperparameter optimization ensures that the Random Forest Classifier is effectively tailored to the characteristics of the data, potentially improving accuracy, generalization, and computational efficiency. This process maximizes the algorithm's potential and ensures that it achieves the best possible performance across different scenarios, ultimately leading to more reliable and accurate predictions.
+
+
+![Screenshot 2024-04-20 230220](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/37971c87-63d2-4e55-ad2d-ed5e3677b611)
 
 
 
