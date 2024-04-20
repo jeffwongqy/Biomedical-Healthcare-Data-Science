@@ -1,2 +1,3 @@
 # **Neural Network Approach for Calories Burnt Prediction**
-
+### **Abstract**
+This study compares the performance of a 1D-CNN model and a DNN model in predicting calorie expenditure. Cross-validation results reveal that both models demonstrate strong performance, yet the 1D-CNN model outperforms the DNN model in mean R2-score and RMSE. Specifically, the 1D-CNN model achieves a mean R2-score of 0.9910 and a mean RMSE of 4.3522, whereas the DNN model scores slightly lower with a mean R2-score of 0.9845 and a mean RMSE of 5.7260. Testing scores for the 1D-CNN model closely align with training scores, indicating robust generalization to unseen data, while the DNN model shows signs of potential overfitting. Thus, based on superior performance metrics and generalization ability, the 1D-CNN model emerges as the most suitable choice for predicting calorie expenditure in this context.
