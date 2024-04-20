@@ -95,7 +95,7 @@ Confusion Matrix:
 
 The confusion matrices provide a detailed breakdown of the performance of the optimized Random Forest Classifier on both the training and testing sets. In the training set, there were 162 true positives (TP) and 162 true negatives (TN), indicating that the model correctly classified instances of both classes. There was only one false positive (FP) and one false negative (FN), indicating a high level of accuracy and balance in classification. Similarly, in the testing set, there were 38 true positives and 21 true negatives, showing the model's ability to correctly identify instances of both classes in unseen data. However, there were two false positives and two false negatives, suggesting a slight decrease in performance compared to the training set. Overall, the results indicate strong performance and generalization of the model to new data, albeit with a small amount of misclassification.
 
-
+NOTE: Please refer to the Jupyter Notebook for a more detailed explanation and results. 
 
 
 
