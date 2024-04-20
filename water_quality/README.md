@@ -106,7 +106,7 @@ This isn't just about our research; it's about making clean water a reality!  Ou
 - Investigate the potential of using powerful AI methods, like convolutional neural networks and recurrent neural networks, to unlock insights from intricate water quality data that has many variables.
 - Let's build AI tools that explain their reasoning! This will help people who manage water quality trust the decisions these models make. Tools like LIME and SHAP can shed light on how these models arrive at their predictions, making them more transparent and reliable.
 
-
+NOTE: Please refer to the Jupyter Notebook for a more detailed explanation and results. 
 
 
 
