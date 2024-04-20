@@ -61,6 +61,7 @@ This was because they did not receive sufficient training samples for the 'safe'
 ### Classification Report:
 
 <img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/5d6faf49-2c84-494e-aa30-234d59cd905e">
+
 - The classification results indicate a high level of performance overall. 
 - For the "Not Safe" class, precision, recall, and F1-score are all high, at 0.98, suggesting that the model effectively identifies instances belonging to this class with few false positives and negatives. 
 - Similarly, for the "Safe" class, precision, recall, and F1-score are slightly lower but still respectable, at 0.84, indicating that while the model identifies instances of this class with good accuracy, there are some false positives and negatives. The accuracy of 0.96 reflects the overall proportion of correctly classified instances in the dataset. The macro and weighted averages of precision, recall, and F1-score are both high, indicating a balanced performance across classes. 
@@ -78,7 +79,32 @@ However, there are some misclassifications, as indicated by the false positives 
 
 ### ROC-AUC Curve:
 <img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/6f7e3cf2-6e9f-4e22-a04a-d73456267dcb">
-- A higher AUC value (closer to 1) suggests better discrimination between the positive and negative classes, indicating that the model can effectively distinguish between them. 
+
+- A higher AUC value (closer to 1) suggests better discrimination between the positive and negative classes, indicating that the model can effectively distinguish between them.
+
+## Feature Importances on Optimized Hyperparameters of Decision Tree Classifier
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/11c29117-1ffe-40a8-987f-62c3749902e0">
+
+- Based on the information provided above, it seems that cadmium, aluminium, chloramine, uranium, and silver have the highest average SHAP values in a model predicting water quality. This suggests that these features are influential in determining whether the water is classified as safe or not safe. 
+- Cadmium, and Uranium: These elements are known to be highly toxic and can cause severe health problems even at low levels. Their high SHAP values suggest they strongly influence the model's prediction of unsafe water.
+- Aluminium: While aluminium can be harmful at high concentrations, it's often present in treated water at regulated levels. The model might be sensitive to aluminium levels, but further analysis is needed to determine its impact on the "safe" classification.
+- Chloramine: This disinfectant is commonly used in water treatment. Its SHAP value could indicate that the model considers chloramine presence as a positive factor for water safety, but it's essential to ensure proper levels are maintained to avoid harmful byproducts.
+- Silver: Colloidal silver is sometimes used for water purification, but its effectiveness and safety are debated. A high SHAP value for silver might require further investigation into the model's training data and assumptions.
+- SHAP values are for feature importance, not absolute safety. Just because a feature has a high SHAP value does not mean it is the sole determinant of safety. Other factors and interactions might also play a role. 
+
+## Further Discussions
+This isn't just about our research; it's about making clean water a reality!  Our models show promise for real-time water quality monitoring, which could be a major breakthrough in safeguarding drinking water. Imagine being able to instantly identify risky water sources! This could revolutionise public health, especially in areas with unpredictable water quality. By using these machine learning tools, authorities can effectively monitor water, identify problems quickly, and take action to protect people's health.
+
+## Limitations
+- While our study shows promise, it's important to acknowledge some limitations. We used historical data, which might not reflect the ever-changing nature of water quality. Additionally, we relied on standard safety thresholds that may not apply everywhere due to local factors like geography and environment.
+- Moving forward, incorporating real-time data and considering regional variations would strengthen our approach. Overall, this research highlights the potential of machine learning for water quality assessment. By making the results understandable, identifying key factors, and demonstrating practical applications, we emphasize the value of automated systems in safeguarding clean drinking water.
+- The limitations identified here serve as a guide for future research, paving the way for continuous improvement in water quality management and global public health.
+
+## Future Scope
+- The next step is to make our water quality assessments even more dynamic. Imagine incorporating live data feeds from sensors and other sources directly into our machine learning models. This constant flow of information would allow the models to learn and adapt in real-time, becoming more adept at spotting water quality issues the moment they arise. By ditching the reliance solely on historical data, we can achieve faster and more precise interventions, safeguarding public health more effectively.
+- Investigate the potential of using powerful AI methods, like convolutional neural networks and recurrent neural networks, to unlock insights from intricate water quality data that has many variables.
+- Let's build AI tools that explain their reasoning! This will help people who manage water quality trust the decisions these models make. Tools like LIME and SHAP can shed light on how these models arrive at their predictions, making them more transparent and reliable.
+
 
 
 
