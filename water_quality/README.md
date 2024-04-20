@@ -40,6 +40,26 @@ After applying StandardScaler():
 <img width="265" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/a992a714-1641-4392-8372-5cb93f8f3919">
 <img width="265" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/62caeedb-b403-4867-b80a-d7eeae5e2ec9">
 <img width="265" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/ae2335dd-a390-4168-abed-5f00fed8e1b1">
+<img width="265" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/a5714085-0a84-4e9a-afc4-0eca199d3a67">
+<img width="265" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/55e9d452-8991-4ad0-905a-36fefb7d7f6b">
+
+- Tree-based models demonstrate superior performance in accuracy and F1 scores compared to linear models. For instance, Decision Trees (DT) achieved an accuracy of 0.96 and an F1 score of 0.90, while Random Forest (RF) attained a similar accuracy and F1 score. 
+- Notably, tree-based models exhibit lower overfitting on imbalanced data because they require less data for training, making even a few samples from the minority class sufficient. 
+- Conversely, linear models like Logistic Regression (LR) and Support Vector Machines (SVM) also exhibit good accuracy scores, achieving the same scores of 0.91, respectively. 
+- However, their F1 scores were lower, each registering a 0.71 and 0.70, respectively. This disparity stems from linear models' need for larger datasets to train effectively, leading to a good fit for majority-class data but an underfit for minority-class data.
+- In general, the models exhibited overfitting on the majority class data, resulting in poor performance on minority class samples. 
+- This overfitting caused the accuracy score to be considerably higher than the F1 score. 
+- Notably, the models performed notably well in predicting the 'not safe' (0) class, with similar precision, recall, and F1 scores across all models. 
+- However, for the 'safe' class (1), the models showed inadequate performance due to underfitting. 
+This was because they did not receive sufficient training samples for the 'safe' class, leading to poor performance on minority class predictions.
+
+## Hyperparameters Tuning on Decision Tree Classifier using GridSearchCV
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/dfe83c55-efa9-469b-9429-1ce5d769b5ce">
+<img width="1630" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/03047788-0913-4088-88a2-412689d45d71">
+
+
+
+
 
 
 
