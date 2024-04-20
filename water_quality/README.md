@@ -11,9 +11,10 @@ Access to clean drinking water is a fundamental human right, yet millions global
 
 ## Dataset Overview
 <img width="250" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/53c42798-48f1-451f-a218-e56c1aa85a79">  
+
 - This data obtained from Kaggle contains 21 different measurements for 8,000 water samples, allowing us to build powerful models to assess water safety. 
 - Let's dive into what these measurements mean:
--- Metals: Aluminum, Arsenic, Barium, Cadmium, Chromium, Copper, Lead, Mercury, Silver, Uranium, Selenium, Radium - These can be harmful at high levels.
--- Chemicals: Ammonia, Chloramine, Fluoride, Nitrates, Nitrites, Perchlorate - These can indicate pollution or treatment processes.
--- Biological: Bacteria, Viruses - These directly impact water safety.
+* Metals: Aluminum, Arsenic, Barium, Cadmium, Chromium, Copper, Lead, Mercury, Silver, Uranium, Selenium, Radium - These can be harmful at high levels.
+* Chemicals: Ammonia, Chloramine, Fluoride, Nitrates, Nitrites, Perchlorate - These can indicate pollution or treatment processes.
+* Biological: Bacteria, Viruses - These directly impact water safety.
 
