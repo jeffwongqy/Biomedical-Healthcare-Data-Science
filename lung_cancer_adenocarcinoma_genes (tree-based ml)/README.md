@@ -24,7 +24,21 @@ The primary objective of this project is to develop and validate predictive mode
 Collected data from BARRA:CuRDa (https://sbcb.inf.ufrgs.br/barracurda) is to utilize a curated RNA-seq database specifically tailored for cancer research, ensuring high-quality and relevant genomic data for analysis and modeling in the context of lung cancer adenocarcinoma.
 
 ## Data Preprocessing
-### (A) Select the first 50 columns for analysis:  To reduce computational complexity while focusing on the most relevant features for initial exploration and modeling.
-### (B) Check for missing values: To ensure data completeness and integrity for accurate analysis and modeling.
-### (C) 
+(A) Select the first 50 columns for analysis:  To reduce computational complexity while focusing on the most relevant features for initial exploration and modeling.
+(B) Check for missing values: To ensure data completeness and integrity for accurate analysis and modeling.
+(C) Distribution of Samples Corresponding to Each Lung Cancer Types: To understand the variability and characteristics of each type, aiding in the identification of potential patterns or differences that could inform diagnosis, prognosis, or treatment strategies.
+
+## Data Splitting
+Splitting data into 80% training and 20% testing is to train machine learning models on a majority of the data while reserving a portion for independent evaluation, ensuring the model's generalizability and performance on unseen data.
+![Screenshot 2024-04-20 224823](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/67bf1db7-a3ea-47dc-8b65-985c1a9ddc7b)
+
+## Data Resampling - SMOTE-Tomek
+Using SMOTE-Tomek to resample the class labels is to address the class imbalance by synthesizing new minority class instances while simultaneously removing potentially noisy or borderline instances, improving the model's ability to learn from imbalanced data.
+![Screenshot 2024-04-20 225000](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/67fa90ec-65e7-4c83-820d-29b95b43026a)
+
+![output](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/5dda9c70-a1af-49f3-bae2-18e6f057a07f)
+
+
+
+
 
