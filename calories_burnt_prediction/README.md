@@ -47,4 +47,4 @@ The primary objective of this project is to design and implement a neural networ
 #### Comparison Plot
 ![comparison_plot_conv1D](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/f2bf7fc8-d630-4912-9299-6eadd89ecb0a)
 
-
+NOTE: Please refer to the Jupyter Notebook for a more detailed explanation and results. 
