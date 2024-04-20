@@ -1,5 +1,6 @@
 # Machine Learning for Safe Drinking Water Assessment 
-https://sensorex.com/wp-content/uploads/2021/09/splashing-165192_1280.jpg
+![splashing-165192_1280](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/c1767386-f0c7-4803-a972-092c367aeaed)
+
 
 
 ## Project Background
