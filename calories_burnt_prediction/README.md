@@ -33,3 +33,16 @@ The primary objective of this project is to design and implement a neural networ
 #### K-Fold Cross-Validation 
 ![dnn_kfold_cv](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/cf337768-87bf-4b10-8db2-b24d52d76ddb)
 
+#### Comparison Plot
+![comparison_plot_dnn](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/cf55d4f2-dd89-4ad2-9c00-49365a4d77e1)
+
+
+### **1-Dimensional Convolutional Neural Network (Results)**
+#### Hold-out Validation
+![conv1d_holdout](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/140b43ec-ce84-4b46-a200-148289852d29)
+
+#### K-Fold Cross-Validation
+![conv1d_kfold_cv](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/53686ddc-d01a-4e44-ba80-cb4d3663e7ba)
+
+
+
