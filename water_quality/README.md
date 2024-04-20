@@ -25,6 +25,7 @@ EDA provides insights into the dataset's characteristics and relationships.
 
 ## Data Splitting
 Data splitting aids in training and evaluating models effectively, allowing for robust validation and testing procedures. In this case, we split the data into 80% training and 20% testing. 
+
 <img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/b293f238-7b5d-486c-a2d5-0eda8d6fff88">
 
 ## Data Normalization 
@@ -34,6 +35,14 @@ Standard scaling, a preprocessing technique in machine learning, is applied to f
 
 After applying StandardScaler():
 ![image](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/a8171930-82b0-406d-8f35-33b4672f7eef)
+
+## Baseline Selection - Machine Learning Algorithms
+<img width="567" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/a992a714-1641-4392-8372-5cb93f8f3919">
+<img width="567" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/62caeedb-b403-4867-b80a-d7eeae5e2ec9">
+<img width="567" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/ae2335dd-a390-4168-abed-5f00fed8e1b1">
+
+
+
 
 
 
