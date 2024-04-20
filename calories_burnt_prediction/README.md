@@ -22,3 +22,9 @@ The primary objective of this project is to design and implement a neural networ
 3. Model Evaluation and Validation: Evaluate the performance of the trained neural network model using appropriate metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE). Validate the model using cross-validation techniques to assess its generalization ability.
 
 4. Performance Comparison: Compare the performance of the developed neural network approach with existing methods for calorie expenditure prediction, such as heart rate monitoring or self-reporting. Assess the accuracy, reliability, and usability of the proposed system in practical scenarios.
+
+### **Function of the Attributes**
+![attributes_function](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/ee77f307-6ddb-4e91-8264-9d136c89c7b8)
+
+
+
