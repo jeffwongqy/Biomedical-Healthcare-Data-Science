@@ -14,7 +14,6 @@ This data obtained from Kaggle contains 21 different measurements for 8,000 wate
 
 <img width="250" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/53c42798-48f1-451f-a218-e56c1aa85a79">  
 
-- Let's dive into what these measurements mean:
 - Metals: Aluminum, Arsenic, Barium, Cadmium, Chromium, Copper, Lead, Mercury, Silver, Uranium, Selenium, and Radium - These can be harmful at high levels.
 - Chemicals: Ammonia, Chloramine, Fluoride, Nitrates, Nitrites, Perchlorate - These can indicate pollution or treatment processes.
 - Biological: Bacteria, Viruses - These directly impact water safety.
@@ -26,7 +25,17 @@ EDA provides insights into the dataset's characteristics and relationships.
 
 ## Data Splitting
 Data splitting aids in training and evaluating models effectively, allowing for robust validation and testing procedures. In this case, we split the data into 80% training and 20% testing. 
-<img width="1688" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/b293f238-7b5d-486c-a2d5-0eda8d6fff88">
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/b293f238-7b5d-486c-a2d5-0eda8d6fff88">
+
+## Data Normalization 
+Standard scaling, a preprocessing technique in machine learning, is applied to features to ensure they have a mean of zero and a standard deviation of one. This normalisation process is crucial for many machine learning algorithms, especially those that involve distance calculations or gradient descent optimisation. By standardising the features, the algorithm treats all features equally in terms of their influence on the model, preventing any particular feature from dominating the others due to its scale. This not only helps algorithms converge faster but also enhances their performance by making them less sensitive to the scale of input features, leading to more stable and reliable models overall.
+
+<img width="500" alt="image" src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/5164f678-0a5c-4a08-bf5d-509864072e58">
+
+After applying StandardScaler():
+![image](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/a8171930-82b0-406d-8f35-33b4672f7eef)
+
+
 
 
 
