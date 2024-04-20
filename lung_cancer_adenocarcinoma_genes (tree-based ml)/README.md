@@ -68,10 +68,30 @@ Hyperparameter optimization is crucial for Random Forest Classifier despite its 
 ![Screenshot 2024-04-20 230220](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/37971c87-63d2-4e55-ad2d-ed5e3677b611)
 
 
+![Screenshot 2024-04-20 230348](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/04456682-4f7f-4293-90b3-6a2b12de96fb)
 
+## Model Training and Evaluation using Optimized Hyperparameters for RFC
+Model training and evaluation on a hyperparameter-optimized Random Forest Classifier ensure maximized performance by fine-tuning parameters for optimal accuracy and generalization.
 
+![Screenshot 2024-04-20 230444](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/240707c6-0433-4310-b35f-57514d5f0953)
 
+Classification Report:
 
+![Screenshot 2024-04-20 230522](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/c1ab029b-3a48-4b11-8428-9817df9e90f7)
+
+The classification report for the optimized Random Forest Classifier reveals strong performance on both the training and testing sets. With precision, recall, and F1-score all consistently high across both classes, the model demonstrates robustness in correctly identifying instances of both classes. The weighted average F1-score of 0.99 for the training set indicates excellent overall performance, while the testing set's weighted average F1-score of 0.94 suggests generalization to unseen data, though slightly lower than the training set. These results signify effective hyperparameter optimization, resulting in a well-generalized model with high accuracy and balanced performance across classes.
+
+ROC-AUC Curve:
+
+![output](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/db4fba4a-f66c-4e71-8bf0-d8c932c0d9e5)
+
+A high AUC of 0.9936 for the training set indicates excellent discrimination ability, suggesting that the model can effectively differentiate between positive and negative instances in the training data. However, the AUC of 0.9315 for the testing set, while still relatively high, is slightly lower than that of the training set. This discrepancy suggests that while the model performs well on unseen data, there may be some degree of overfitting to the training data. Nonetheless, the testing set's AUC value still indicates strong discriminatory power and suggests that the model's performance generalizes well to new data, albeit with a slight drop in performance compared to the training set.
+
+Confusion Matrix:
+
+![output2](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/803acf61-971e-4ac9-a9a7-cacf13ac7759)
+
+The confusion matrices provide a detailed breakdown of the performance of the optimized Random Forest Classifier on both the training and testing sets. In the training set, there were 162 true positives (TP) and 162 true negatives (TN), indicating that the model correctly classified instances of both classes. There was only one false positive (FP) and one false negative (FN), indicating a high level of accuracy and balance in classification. Similarly, in the testing set, there were 38 true positives and 21 true negatives, showing the model's ability to correctly identify instances of both classes in unseen data. However, there were two false positives and two false negatives, suggesting a slight decrease in performance compared to the training set. Overall, the results indicate strong performance and generalization of the model to new data, albeit with a small amount of misclassification.
 
 
 
