@@ -42,6 +42,15 @@ Using SMOTE-Tomek to resample the class labels is to address the class imbalance
 <img src="https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/2bc3d43e-ebd2-4954-8a31-1145fe295cb1" width="350" alt="Output2 Image">
 
 ## Data Transformation
+(A) Standard Scaler: To apply standard scaling transformation to numerical features, ensuring they are centered around zero with a standard deviation of one for improved model performance and interoperability.
+
+![Screenshot 2024-04-20 225737](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/9fdd06ca-55ec-4ab9-abdd-c48fe6241800)
+
+![Screenshot 2024-04-20 225828](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/125ca150-2389-401f-8360-a2d27efc6c4c)
+
+(B) Label Encoder: To utilize label encoding to transform categorical features into numerical representations, facilitating machine learning algorithms' ability to process categorical data effectively.
+
+
 
 
 
