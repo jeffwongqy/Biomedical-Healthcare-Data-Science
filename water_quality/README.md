@@ -1,4 +1,5 @@
 # Machine Learning for Safe Drinking Water Assessment 
+![water_quality](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/9b9dea7a-fd55-4588-b047-115de1265939)
 
 ## Project Background
 Access to clean drinking water is a fundamental human right, yet millions globally lack this essential resource. This project explores the potential of machine learning to assess water potability. We propose a machine learning model that can analyze various water quality parameters to predict the presence of contaminants and classify water as safe or unsafe for consumption.
