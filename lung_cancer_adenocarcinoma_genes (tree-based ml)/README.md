@@ -50,6 +50,11 @@ Using SMOTE-Tomek to resample the class labels is to address the class imbalance
 
 (B) Label Encoder: To utilize label encoding to transform categorical features into numerical representations, facilitating machine learning algorithms' ability to process categorical data effectively.
 
+![Screenshot 2024-04-20 225933](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/b4615826-0650-4587-a357-1ab9058831fb)
+
+![Screenshot 2024-04-20 225920](https://github.com/jeffwongqy/Biomedical-Healthcare-Genomics-Data-Science/assets/100281127/f59f47b8-5c0c-4976-b43d-79bae2088267)
+
+
 
 
 
